@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pyngrok
+jinja2
+python-multipart
+nest_asyncio
+pytz
+pandas
+Pillow
+torch
+groq
