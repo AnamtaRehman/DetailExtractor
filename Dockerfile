@@ -19,4 +19,4 @@ EXPOSE 8000
 # Command to run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
-RUN ngrok config add-authtoken 2pq42yCCr5Oj3j7D2H08bdWWCOh_6W1QQnvpeMg365LtWXdNU
+RUN ngrok config add-authtoken 2xGHrM60dUbLOLErbCJ8FDkwkNX_85dCEfFjsSyBj1G8X2g9g
