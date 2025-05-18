@@ -25,7 +25,7 @@ import uvicorn
 from PIL import Image
 import nest_asyncio
 from fastapi.middleware.cors import CORSMiddleware
-from pyngrok import ngrok
+#from pyngrok import ngrok
 import json
 from datetime import datetime
 from typing import List
@@ -674,9 +674,9 @@ async def freshness_download_csv():
         raise HTTPException(status_code=500, detail=f"Error generating CSV: {str(e)}")
 
 
-# Start ngrok tunnel
-public_url = ngrok.connect(8000)
-print(f" * ngrok tunnel URL: {public_url}")
+# # Start ngrok tunnel
+# public_url = ngrok.connect(8000)
+# print(f" * ngrok tunnel URL: {public_url}")
 
 nest_asyncio.apply()
 if __name__ == "__main__":
