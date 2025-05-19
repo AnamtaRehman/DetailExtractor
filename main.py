@@ -174,7 +174,7 @@ Return the data in the following JSON format ONLY:
                     ],
                 }
             ],
-            model="llama-3.2-90b-vision-preview",
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
         )
 
         # Extract the response content
@@ -274,7 +274,7 @@ Also provide the positions of each item
                     ],
                 }
             ],
-            model="llama-3.2-90b-vision-preview",
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
         )
 
         # Extract the response content
