@@ -32,7 +32,7 @@ from typing import List
 
 
 #API KEY
-client = Groq(api_key='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')
+client = Groq(api_key='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')
 
 """
 This FastAPI web application processes product and freshness details extracted from images. It includes:
